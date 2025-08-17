@@ -1,0 +1,331 @@
+2025-08-17 08:49:05,543 - __main__ - INFO - 正在启动强平订单监控系统...
+2025-08-17 08:49:05,552 - influxdb_handler - INFO - 成功连接到InfluxDB
+2025-08-17 08:49:05,552 - __main__ - INFO - InfluxDB处理器初始化完成
+2025-08-17 08:49:05,552 - __main__ - INFO - WebSocket客户端初始化完成
+2025-08-17 08:49:05,552 - websocket_client - INFO - 正在连接到: wss://fstream.binance.com/ws/solusdt@forceorder/adausdt@forceorder/dogeusdt@forceorder/xrpusdt@forceorder/xlmusdt@forceorder
+2025-08-17 08:49:06,938 - websocket_client - INFO - 成功连接到币安WebSocket
+2025-08-17 08:50:18,782 - __main__ - INFO - 收到信号 2，正在关闭...
+2025-08-17 08:50:18,782 - __main__ - INFO - 正在清理资源...
+2025-08-17 08:50:24,157 - __main__ - INFO - 正在清理资源...
+2025-08-17 08:50:24,158 - websocket_client - INFO - WebSocket连接已断开
+2025-08-17 08:50:24,158 - influxdb_handler - INFO - InfluxDB连接已关闭
+2025-08-17 08:50:24,158 - __main__ - INFO - 资源清理完成
+2025-08-17 08:50:24,158 - websocket_client - INFO - WebSocket连接已断开
+2025-08-17 08:50:24,158 - influxdb_handler - INFO - InfluxDB连接已关闭
+2025-08-17 08:50:24,158 - __main__ - INFO - 资源清理完成
+2025-08-17 09:05:18,264 - __main__ - INFO - 正在启动强平订单监控系统...
+2025-08-17 09:05:18,268 - influxdb_handler - INFO - 成功连接到InfluxDB
+2025-08-17 09:05:18,268 - __main__ - INFO - InfluxDB处理器初始化完成
+2025-08-17 09:05:18,268 - __main__ - INFO - WebSocket客户端初始化完成
+2025-08-17 09:05:18,269 - websocket_client - INFO - 正在连接到: wss://fstream.binance.com/ws/solusdt@forceorder/adausdt@forceorder/dogeusdt@forceorder/xrpusdt@forceorder/xlmusdt@forceorder
+2025-08-17 09:05:19,590 - websocket_client - INFO - 成功连接到币安WebSocket
+2025-08-17 10:13:08,585 - __main__ - INFO - 正在启动强平订单监控系统...
+2025-08-17 10:13:08,590 - influxdb_handler - INFO - 成功连接到InfluxDB
+2025-08-17 10:13:08,591 - __main__ - INFO - InfluxDB处理器初始化完成
+2025-08-17 10:13:08,591 - __main__ - INFO - WebSocket客户端初始化完成
+2025-08-17 10:13:08,591 - websocket_client - INFO - 正在连接到: wss://fstream.binance.com/ws/solusdt@forceorder/adausdt@forceorder/dogeusdt@forceorder/xrpusdt@forceorder/xlmusdt@forceorder
+2025-08-17 10:13:09,975 - websocket_client - INFO - 成功连接到币安WebSocket
+2025-08-17 11:00:16,685 - __main__ - INFO - ============================================================
+2025-08-17 11:00:16,685 - __main__ - INFO - 🚀 正在启动币安强平订单监控系统...
+2025-08-17 11:00:16,685 - __main__ - INFO - ============================================================
+2025-08-17 11:00:16,686 - __main__ - INFO - 📊 正在初始化InfluxDB处理器...
+2025-08-17 11:00:16,686 - influxdb_handler - INFO - 正在连接InfluxDB: http://localhost:8086
+2025-08-17 11:00:16,686 - influxdb_handler - INFO - 组织: myorg, 存储桶: binance_force_orders, 测量: force_orders
+2025-08-17 11:00:16,686 - influxdb_handler - INFO - 使用用户名密码认证: admin
+2025-08-17 11:00:16,744 - influxdb_handler - INFO - InfluxDB健康状态: {'checks': [],
+ 'commit': 'ec9dcde5d6',
+ 'message': 'ready for queries and writes',
+ 'name': 'influxdb',
+ 'status': 'pass',
+ 'version': 'v2.7.12'}
+2025-08-17 11:00:16,745 - influxdb_handler - INFO - 存储桶 'binance_force_orders' 存在: {'created_at': datetime.datetime(2025, 8, 17, 2, 8, 45, 273509, tzinfo=tzutc()),
+ 'description': None,
+ 'id': '87e02f2b89a3a10b',
+ 'labels': [],
+ 'links': {'_self': '/api/v2/buckets/87e02f2b89a3a10b',
+           'labels': '/api/v2/buckets/87e02f2b89a3a10b/labels',
+           'members': '/api/v2/buckets/87e02f2b89a3a10b/members',
+           'org': '/api/v2/orgs/48bcd194bb82ddab',
+           'owners': '/api/v2/buckets/87e02f2b89a3a10b/owners',
+           'write': '/api/v2/write?org=48bcd194bb82ddab&bucket=87e02f2b89a3a10b'},
+ 'name': 'binance_force_orders',
+ 'org_id': '48bcd194bb82ddab',
+ 'retention_rules': [{'every_seconds': 0,
+                      'shard_group_duration_seconds': 604800,
+                      'type': 'expire'}],
+ 'rp': None,
+ 'schema_type': None,
+ 'type': 'user',
+ 'updated_at': datetime.datetime(2025, 8, 17, 2, 8, 45, 273509, tzinfo=tzutc())}
+2025-08-17 11:00:16,746 - influxdb_handler - INFO - ✅ InfluxDB连接成功！
+2025-08-17 11:00:16,746 - influxdb_handler - INFO - 写入API: <influxdb_client.client.write_api.WriteApi object at 0x000002181C888F70>
+2025-08-17 11:00:16,746 - influxdb_handler - INFO - 查询API: <influxdb_client.client.query_api.QueryApi object at 0x000002183BD6C520>
+2025-08-17 11:00:16,746 - __main__ - INFO - ✅ InfluxDB处理器初始化完成
+2025-08-17 11:00:16,746 - __main__ - INFO - 📋 获取数据库信息...
+2025-08-17 11:00:16,746 - influxdb_handler - INFO - 获取InfluxDB数据库信息...
+2025-08-17 11:00:16,748 - influxdb_handler - INFO - 组织列表: ['myorg']
+2025-08-17 11:00:16,749 - influxdb_handler - ERROR - 获取数据库信息失败: 'Buckets' object is not iterable
+2025-08-17 11:00:16,750 - __main__ - INFO - 🌐 正在初始化WebSocket客户端...
+2025-08-17 11:00:16,750 - __main__ - INFO - ✅ WebSocket客户端初始化完成
+2025-08-17 11:00:16,750 - __main__ - INFO - 🔄 正在启动监控...
+2025-08-17 11:00:16,750 - websocket_client - INFO - 正在连接到: wss://fstream.binance.com/ws/solusdt@forceorder/adausdt@forceorder/dogeusdt@forceorder/xrpusdt@forceorder/xlmusdt@forceorder
+2025-08-17 11:00:18,023 - websocket_client - INFO - 成功连接到币安WebSocket
+2025-08-17 11:05:56,019 - __main__ - INFO - 📡 收到信号 2，正在关闭...
+2025-08-17 11:05:56,019 - __main__ - INFO - 🧹 正在清理资源...
+2025-08-17 11:05:56,020 - __main__ - INFO - 🔌 正在断开WebSocket连接...
+2025-08-17 11:06:06,242 - __main__ - INFO - 🔄 监控系统正在运行中...
+2025-08-17 11:06:06,243 - __main__ - INFO - 💡 按 Ctrl+C 停止监控
+2025-08-17 11:06:06,244 - __main__ - INFO - 🧹 正在清理资源...
+2025-08-17 11:06:06,246 - __main__ - INFO - 🔌 正在断开WebSocket连接...
+2025-08-17 11:06:06,247 - websocket_client - INFO - WebSocket连接已断开
+2025-08-17 11:06:06,247 - __main__ - INFO - 🗄️ 正在关闭InfluxDB连接...
+2025-08-17 11:06:06,247 - influxdb_handler - INFO - 正在关闭InfluxDB连接...
+2025-08-17 11:06:06,250 - influxdb_handler - INFO - ✅ InfluxDB连接已关闭
+2025-08-17 11:06:06,250 - __main__ - INFO - ✅ 资源清理完成
+2025-08-17 11:06:06,250 - websocket_client - INFO - WebSocket连接已断开
+2025-08-17 11:06:06,250 - __main__ - INFO - 🗄️ 正在关闭InfluxDB连接...
+2025-08-17 11:06:06,250 - influxdb_handler - INFO - 正在关闭InfluxDB连接...
+2025-08-17 11:06:06,250 - influxdb_handler - INFO - ✅ InfluxDB连接已关闭
+2025-08-17 11:06:06,251 - __main__ - INFO - ✅ 资源清理完成
+2025-08-17 11:06:10,089 - __main__ - INFO - ============================================================
+2025-08-17 11:06:10,090 - __main__ - INFO - 🚀 正在启动币安强平订单监控系统...
+2025-08-17 11:06:10,090 - __main__ - INFO - ============================================================
+2025-08-17 11:06:10,090 - __main__ - INFO - 📊 正在初始化InfluxDB处理器...
+2025-08-17 11:06:10,090 - influxdb_handler - INFO - 正在连接InfluxDB: http://localhost:8086
+2025-08-17 11:06:10,090 - influxdb_handler - INFO - 组织: myorg, 存储桶: binance_force_orders, 测量: force_orders
+2025-08-17 11:06:10,090 - influxdb_handler - INFO - 使用用户名密码认证: admin
+2025-08-17 11:06:10,166 - influxdb_handler - INFO - InfluxDB健康状态: {'checks': [],
+ 'commit': 'ec9dcde5d6',
+ 'message': 'ready for queries and writes',
+ 'name': 'influxdb',
+ 'status': 'pass',
+ 'version': 'v2.7.12'}
+2025-08-17 11:06:10,168 - influxdb_handler - INFO - 存储桶 'binance_force_orders' 存在: {'created_at': datetime.datetime(2025, 8, 17, 2, 8, 45, 273509, tzinfo=tzutc()),
+ 'description': None,
+ 'id': '87e02f2b89a3a10b',
+ 'labels': [],
+ 'links': {'_self': '/api/v2/buckets/87e02f2b89a3a10b',
+           'labels': '/api/v2/buckets/87e02f2b89a3a10b/labels',
+           'members': '/api/v2/buckets/87e02f2b89a3a10b/members',
+           'org': '/api/v2/orgs/48bcd194bb82ddab',
+           'owners': '/api/v2/buckets/87e02f2b89a3a10b/owners',
+           'write': '/api/v2/write?org=48bcd194bb82ddab&bucket=87e02f2b89a3a10b'},
+ 'name': 'binance_force_orders',
+ 'org_id': '48bcd194bb82ddab',
+ 'retention_rules': [{'every_seconds': 0,
+                      'shard_group_duration_seconds': 604800,
+                      'type': 'expire'}],
+ 'rp': None,
+ 'schema_type': None,
+ 'type': 'user',
+ 'updated_at': datetime.datetime(2025, 8, 17, 2, 8, 45, 273509, tzinfo=tzutc())}
+2025-08-17 11:06:10,170 - influxdb_handler - INFO - ✅ InfluxDB连接成功！
+2025-08-17 11:06:10,170 - influxdb_handler - INFO - 写入API: <influxdb_client.client.write_api.WriteApi object at 0x0000015FE0FF8F70>
+2025-08-17 11:06:10,171 - influxdb_handler - INFO - 查询API: <influxdb_client.client.query_api.QueryApi object at 0x0000015FFFCD1810>
+2025-08-17 11:06:10,171 - __main__ - INFO - ✅ InfluxDB处理器初始化完成
+2025-08-17 11:06:10,171 - __main__ - INFO - 📋 获取数据库信息...
+2025-08-17 11:06:10,171 - influxdb_handler - INFO - 获取InfluxDB数据库信息...
+2025-08-17 11:06:10,172 - influxdb_handler - INFO - 组织列表: ['myorg']
+2025-08-17 11:06:10,174 - influxdb_handler - INFO - 存储桶列表: []
+2025-08-17 11:06:10,220 - influxdb_handler - INFO - 测量列表: [<FluxTable: 3 columns, 1 records>]
+2025-08-17 11:06:10,220 - __main__ - INFO - 📊 数据库信息:
+2025-08-17 11:06:10,221 - __main__ - INFO -   组织: ['myorg']
+2025-08-17 11:06:10,221 - __main__ - INFO -   存储桶: []
+2025-08-17 11:06:10,221 - __main__ - INFO -   测量: [<FluxTable: 3 columns, 1 records>]
+2025-08-17 11:06:10,221 - __main__ - INFO - 🌐 正在初始化WebSocket客户端...
+2025-08-17 11:06:10,221 - __main__ - INFO - ✅ WebSocket客户端初始化完成
+2025-08-17 11:06:10,221 - __main__ - INFO - 🔄 正在启动监控...
+2025-08-17 11:06:10,221 - websocket_client - INFO - 正在连接到: wss://fstream.binance.com/ws/solusdt@forceorder/adausdt@forceorder/dogeusdt@forceorder/xrpusdt@forceorder/xlmusdt@forceorder
+2025-08-17 11:06:11,487 - websocket_client - INFO - 成功连接到币安WebSocket
+2025-08-17 11:06:24,960 - __main__ - INFO - 📡 收到信号 2，正在关闭...
+2025-08-17 11:06:24,960 - __main__ - INFO - 🧹 正在清理资源...
+2025-08-17 11:06:24,960 - __main__ - INFO - 🔌 正在断开WebSocket连接...
+2025-08-17 11:06:34,303 - __main__ - INFO - 🔄 监控系统正在运行中...
+2025-08-17 11:06:34,303 - __main__ - INFO - 💡 按 Ctrl+C 停止监控
+2025-08-17 11:06:34,303 - __main__ - INFO - 🧹 正在清理资源...
+2025-08-17 11:06:34,303 - __main__ - INFO - 🔌 正在断开WebSocket连接...
+2025-08-17 11:06:34,304 - websocket_client - INFO - WebSocket连接已断开
+2025-08-17 11:06:34,304 - __main__ - INFO - 🗄️ 正在关闭InfluxDB连接...
+2025-08-17 11:06:34,304 - influxdb_handler - INFO - 正在关闭InfluxDB连接...
+2025-08-17 11:06:34,305 - influxdb_handler - INFO - ✅ InfluxDB连接已关闭
+2025-08-17 11:06:34,306 - __main__ - INFO - ✅ 资源清理完成
+2025-08-17 11:06:34,306 - websocket_client - INFO - WebSocket连接已断开
+2025-08-17 11:06:34,306 - __main__ - INFO - 🗄️ 正在关闭InfluxDB连接...
+2025-08-17 11:06:34,306 - influxdb_handler - INFO - 正在关闭InfluxDB连接...
+2025-08-17 11:06:34,307 - influxdb_handler - INFO - ✅ InfluxDB连接已关闭
+2025-08-17 11:06:34,307 - __main__ - INFO - ✅ 资源清理完成
+2025-08-17 11:06:40,393 - __main__ - INFO - ============================================================
+2025-08-17 11:06:40,394 - __main__ - INFO - 🚀 正在启动币安强平订单监控系统...
+2025-08-17 11:06:40,394 - __main__ - INFO - ============================================================
+2025-08-17 11:06:40,394 - __main__ - INFO - 📊 正在初始化InfluxDB处理器...
+2025-08-17 11:06:40,394 - influxdb_handler - INFO - 正在连接InfluxDB: http://localhost:8086
+2025-08-17 11:06:40,394 - influxdb_handler - INFO - 组织: myorg, 存储桶: binance_force_orders, 测量: force_orders
+2025-08-17 11:06:40,394 - influxdb_handler - INFO - 使用用户名密码认证: admin
+2025-08-17 11:06:40,452 - influxdb_handler - INFO - InfluxDB健康状态: {'checks': [],
+ 'commit': 'ec9dcde5d6',
+ 'message': 'ready for queries and writes',
+ 'name': 'influxdb',
+ 'status': 'pass',
+ 'version': 'v2.7.12'}
+2025-08-17 11:06:40,454 - influxdb_handler - INFO - 存储桶 'binance_force_orders' 存在: {'created_at': datetime.datetime(2025, 8, 17, 2, 8, 45, 273509, tzinfo=tzutc()),
+ 'description': None,
+ 'id': '87e02f2b89a3a10b',
+ 'labels': [],
+ 'links': {'_self': '/api/v2/buckets/87e02f2b89a3a10b',
+           'labels': '/api/v2/buckets/87e02f2b89a3a10b/labels',
+           'members': '/api/v2/buckets/87e02f2b89a3a10b/members',
+           'org': '/api/v2/orgs/48bcd194bb82ddab',
+           'owners': '/api/v2/buckets/87e02f2b89a3a10b/owners',
+           'write': '/api/v2/write?org=48bcd194bb82ddab&bucket=87e02f2b89a3a10b'},
+ 'name': 'binance_force_orders',
+ 'org_id': '48bcd194bb82ddab',
+ 'retention_rules': [{'every_seconds': 0,
+                      'shard_group_duration_seconds': 604800,
+                      'type': 'expire'}],
+ 'rp': None,
+ 'schema_type': None,
+ 'type': 'user',
+ 'updated_at': datetime.datetime(2025, 8, 17, 2, 8, 45, 273509, tzinfo=tzutc())}
+2025-08-17 11:06:40,454 - influxdb_handler - INFO - ✅ InfluxDB连接成功！
+2025-08-17 11:06:40,455 - influxdb_handler - INFO - 写入API: <influxdb_client.client.write_api.WriteApi object at 0x0000022106E48F70>
+2025-08-17 11:06:40,455 - influxdb_handler - INFO - 查询API: <influxdb_client.client.query_api.QueryApi object at 0x0000022126321810>
+2025-08-17 11:06:40,455 - __main__ - INFO - ✅ InfluxDB处理器初始化完成
+2025-08-17 11:06:40,455 - __main__ - INFO - 📋 获取数据库信息...
+2025-08-17 11:06:40,455 - influxdb_handler - INFO - 获取InfluxDB数据库信息...
+2025-08-17 11:06:40,456 - influxdb_handler - INFO - 组织列表: ['myorg']
+2025-08-17 11:06:40,457 - influxdb_handler - INFO - 存储桶列表: []
+2025-08-17 11:06:40,512 - influxdb_handler - INFO - 测量列表: [<FluxTable: 3 columns, 1 records>]
+2025-08-17 11:06:40,513 - __main__ - INFO - 📊 数据库信息:
+2025-08-17 11:06:40,513 - __main__ - INFO -   组织: ['myorg']
+2025-08-17 11:06:40,513 - __main__ - INFO -   存储桶: []
+2025-08-17 11:06:40,513 - __main__ - INFO -   测量: [<FluxTable: 3 columns, 1 records>]
+2025-08-17 11:06:40,513 - __main__ - INFO - 🌐 正在初始化WebSocket客户端...
+2025-08-17 11:06:40,513 - __main__ - INFO - ✅ WebSocket客户端初始化完成
+2025-08-17 11:06:40,513 - __main__ - INFO - 🔄 正在启动监控...
+2025-08-17 11:06:40,513 - websocket_client - INFO - 正在连接到: wss://fstream.binance.com/ws/solusdt@forceorder/adausdt@forceorder/dogeusdt@forceorder/xrpusdt@forceorder/xlmusdt@forceorder
+2025-08-17 11:06:41,710 - websocket_client - INFO - 成功连接到币安WebSocket
+2025-08-17 11:07:19,348 - __main__ - INFO - ============================================================
+2025-08-17 11:07:19,348 - __main__ - INFO - 🚀 正在启动币安强平订单监控系统...
+2025-08-17 11:07:19,348 - __main__ - INFO - ============================================================
+2025-08-17 11:07:19,350 - __main__ - INFO - 📊 正在初始化InfluxDB处理器...
+2025-08-17 11:07:19,350 - influxdb_handler - INFO - 正在连接InfluxDB: http://localhost:8086
+2025-08-17 11:07:19,350 - influxdb_handler - INFO - 组织: myorg, 存储桶: binance_force_orders, 测量: force_orders
+2025-08-17 11:07:19,350 - influxdb_handler - INFO - 使用用户名密码认证: admin
+2025-08-17 11:07:19,408 - influxdb_handler - INFO - InfluxDB健康状态: {'checks': [],
+ 'commit': 'ec9dcde5d6',
+ 'message': 'ready for queries and writes',
+ 'name': 'influxdb',
+ 'status': 'pass',
+ 'version': 'v2.7.12'}
+2025-08-17 11:07:19,410 - influxdb_handler - INFO - 存储桶 'binance_force_orders' 存在: {'created_at': datetime.datetime(2025, 8, 17, 2, 8, 45, 273509, tzinfo=tzutc()),
+ 'description': None,
+ 'id': '87e02f2b89a3a10b',
+ 'labels': [],
+ 'links': {'_self': '/api/v2/buckets/87e02f2b89a3a10b',
+           'labels': '/api/v2/buckets/87e02f2b89a3a10b/labels',
+           'members': '/api/v2/buckets/87e02f2b89a3a10b/members',
+           'org': '/api/v2/orgs/48bcd194bb82ddab',
+           'owners': '/api/v2/buckets/87e02f2b89a3a10b/owners',
+           'write': '/api/v2/write?org=48bcd194bb82ddab&bucket=87e02f2b89a3a10b'},
+ 'name': 'binance_force_orders',
+ 'org_id': '48bcd194bb82ddab',
+ 'retention_rules': [{'every_seconds': 0,
+                      'shard_group_duration_seconds': 604800,
+                      'type': 'expire'}],
+ 'rp': None,
+ 'schema_type': None,
+ 'type': 'user',
+ 'updated_at': datetime.datetime(2025, 8, 17, 2, 8, 45, 273509, tzinfo=tzutc())}
+2025-08-17 11:07:19,411 - influxdb_handler - INFO - ✅ InfluxDB连接成功！
+2025-08-17 11:07:19,411 - influxdb_handler - INFO - 写入API: <influxdb_client.client.write_api.WriteApi object at 0x000001FC324A8F70>
+2025-08-17 11:07:19,411 - influxdb_handler - INFO - 查询API: <influxdb_client.client.query_api.QueryApi object at 0x000001FC51981810>
+2025-08-17 11:07:19,412 - __main__ - INFO - ✅ InfluxDB处理器初始化完成
+2025-08-17 11:07:19,412 - __main__ - INFO - 📋 获取数据库信息...
+2025-08-17 11:07:19,412 - influxdb_handler - INFO - 获取InfluxDB数据库信息...
+2025-08-17 11:07:19,413 - influxdb_handler - INFO - 组织列表: ['myorg']
+2025-08-17 11:07:19,415 - influxdb_handler - INFO - 存储桶列表: []
+2025-08-17 11:07:19,466 - influxdb_handler - INFO - 测量列表: [<FluxTable: 3 columns, 1 records>]
+2025-08-17 11:07:19,467 - __main__ - INFO - 📊 数据库信息:
+2025-08-17 11:07:19,467 - __main__ - INFO -   组织: ['myorg']
+2025-08-17 11:07:19,467 - __main__ - INFO -   存储桶: []
+2025-08-17 11:07:19,467 - __main__ - INFO -   测量: [<FluxTable: 3 columns, 1 records>]
+2025-08-17 11:07:19,467 - __main__ - INFO - 🌐 正在初始化WebSocket客户端...
+2025-08-17 11:07:19,467 - __main__ - INFO - ✅ WebSocket客户端初始化完成
+2025-08-17 11:07:19,467 - __main__ - INFO - 🔄 正在启动监控...
+2025-08-17 11:07:19,468 - websocket_client - INFO - 正在连接到: wss://fstream.binance.com/ws/solusdt@forceorder/adausdt@forceorder/dogeusdt@forceorder/xrpusdt@forceorder/xlmusdt@forceorder
+2025-08-17 11:07:20,876 - websocket_client - INFO - 成功连接到币安WebSocket
+2025-08-17 11:07:54,089 - __main__ - INFO - 📡 收到信号 2，正在关闭...
+2025-08-17 11:07:54,089 - __main__ - INFO - 🧹 正在清理资源...
+2025-08-17 11:07:54,089 - __main__ - INFO - 🔌 正在断开WebSocket连接...
+2025-08-17 11:07:55,850 - __main__ - INFO - 📡 收到信号 2，正在关闭...
+2025-08-17 11:07:55,850 - __main__ - INFO - 🧹 正在清理资源...
+2025-08-17 11:07:55,851 - __main__ - INFO - 🔌 正在断开WebSocket连接...
+2025-08-17 11:08:02,238 - __main__ - INFO - 🔄 监控系统正在运行中...
+2025-08-17 11:08:02,238 - __main__ - INFO - 💡 按 Ctrl+C 停止监控
+2025-08-17 11:08:02,238 - __main__ - INFO - 🧹 正在清理资源...
+2025-08-17 11:08:02,239 - __main__ - INFO - 🔌 正在断开WebSocket连接...
+2025-08-17 11:08:02,239 - websocket_client - INFO - WebSocket连接已断开
+2025-08-17 11:08:02,239 - __main__ - INFO - 🗄️ 正在关闭InfluxDB连接...
+2025-08-17 11:08:02,239 - influxdb_handler - INFO - 正在关闭InfluxDB连接...
+2025-08-17 11:08:02,242 - influxdb_handler - INFO - ✅ InfluxDB连接已关闭
+2025-08-17 11:08:02,242 - __main__ - INFO - ✅ 资源清理完成
+2025-08-17 11:08:02,243 - websocket_client - INFO - WebSocket连接已断开
+2025-08-17 11:08:02,243 - __main__ - INFO - 🗄️ 正在关闭InfluxDB连接...
+2025-08-17 11:08:02,245 - influxdb_handler - INFO - 正在关闭InfluxDB连接...
+2025-08-17 11:08:02,246 - influxdb_handler - INFO - ✅ InfluxDB连接已关闭
+2025-08-17 11:08:02,247 - __main__ - INFO - ✅ 资源清理完成
+2025-08-17 11:08:02,247 - websocket_client - INFO - WebSocket连接已断开
+2025-08-17 11:08:02,247 - __main__ - INFO - 🗄️ 正在关闭InfluxDB连接...
+2025-08-17 11:08:02,247 - influxdb_handler - INFO - 正在关闭InfluxDB连接...
+2025-08-17 11:08:02,248 - influxdb_handler - INFO - ✅ InfluxDB连接已关闭
+2025-08-17 11:08:02,248 - __main__ - INFO - ✅ 资源清理完成
+2025-08-17 11:08:11,866 - __main__ - INFO - ============================================================
+2025-08-17 11:08:11,866 - __main__ - INFO - 🚀 正在启动币安强平订单监控系统...
+2025-08-17 11:08:11,866 - __main__ - INFO - ============================================================
+2025-08-17 11:08:11,866 - __main__ - INFO - 📊 正在初始化InfluxDB处理器...
+2025-08-17 11:08:11,866 - influxdb_handler - INFO - 正在连接InfluxDB: http://localhost:8086
+2025-08-17 11:08:11,866 - influxdb_handler - INFO - 组织: myorg, 存储桶: binance_force_orders, 测量: force_orders
+2025-08-17 11:08:11,866 - influxdb_handler - INFO - 使用用户名密码认证: admin
+2025-08-17 11:08:11,925 - influxdb_handler - INFO - InfluxDB健康状态: {'checks': [],
+ 'commit': 'ec9dcde5d6',
+ 'message': 'ready for queries and writes',
+ 'name': 'influxdb',
+ 'status': 'pass',
+ 'version': 'v2.7.12'}
+2025-08-17 11:08:11,927 - influxdb_handler - INFO - 存储桶 'binance_force_orders' 存在: {'created_at': datetime.datetime(2025, 8, 17, 2, 8, 45, 273509, tzinfo=tzutc()),
+ 'description': None,
+ 'id': '87e02f2b89a3a10b',
+ 'labels': [],
+ 'links': {'_self': '/api/v2/buckets/87e02f2b89a3a10b',
+           'labels': '/api/v2/buckets/87e02f2b89a3a10b/labels',
+           'members': '/api/v2/buckets/87e02f2b89a3a10b/members',
+           'org': '/api/v2/orgs/48bcd194bb82ddab',
+           'owners': '/api/v2/buckets/87e02f2b89a3a10b/owners',
+           'write': '/api/v2/write?org=48bcd194bb82ddab&bucket=87e02f2b89a3a10b'},
+ 'name': 'binance_force_orders',
+ 'org_id': '48bcd194bb82ddab',
+ 'retention_rules': [{'every_seconds': 0,
+                      'shard_group_duration_seconds': 604800,
+                      'type': 'expire'}],
+ 'rp': None,
+ 'schema_type': None,
+ 'type': 'user',
+ 'updated_at': datetime.datetime(2025, 8, 17, 2, 8, 45, 273509, tzinfo=tzutc())}
+2025-08-17 11:08:11,927 - influxdb_handler - INFO - ✅ InfluxDB连接成功！
+2025-08-17 11:08:11,927 - influxdb_handler - INFO - 写入API: <influxdb_client.client.write_api.WriteApi object at 0x0000027418468F70>
+2025-08-17 11:08:11,928 - influxdb_handler - INFO - 查询API: <influxdb_client.client.query_api.QueryApi object at 0x0000027437941810>
+2025-08-17 11:08:11,928 - __main__ - INFO - ✅ InfluxDB处理器初始化完成
+2025-08-17 11:08:11,928 - __main__ - INFO - 📋 获取数据库信息...
+2025-08-17 11:08:11,928 - influxdb_handler - INFO - 获取InfluxDB数据库信息...
+2025-08-17 11:08:11,930 - influxdb_handler - INFO - 组织列表: ['myorg']
+2025-08-17 11:08:11,932 - influxdb_handler - INFO - 存储桶列表: []
+2025-08-17 11:08:11,983 - influxdb_handler - INFO - 测量列表: [<FluxTable: 3 columns, 1 records>]
+2025-08-17 11:08:11,983 - __main__ - INFO - 📊 数据库信息:
+2025-08-17 11:08:11,983 - __main__ - INFO -   组织: ['myorg']
+2025-08-17 11:08:11,983 - __main__ - INFO -   存储桶: []
+2025-08-17 11:08:11,983 - __main__ - INFO -   测量: [<FluxTable: 3 columns, 1 records>]
+2025-08-17 11:08:11,983 - __main__ - INFO - 🌐 正在初始化WebSocket客户端...
+2025-08-17 11:08:11,983 - __main__ - INFO - ✅ WebSocket客户端初始化完成
+2025-08-17 11:08:11,984 - __main__ - INFO - 🔄 正在启动监控...
+2025-08-17 11:08:11,984 - websocket_client - INFO - 正在连接到: wss://fstream.binance.com/ws/solusdt@forceorder/adausdt@forceorder/dogeusdt@forceorder/xrpusdt@forceorder/xlmusdt@forceorder
+2025-08-17 11:08:13,482 - websocket_client - INFO - 成功连接到币安WebSocket
