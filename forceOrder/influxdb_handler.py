@@ -1,5 +1,5 @@
 import logging
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Dict, Any
 from influxdb_client import InfluxDBClient, Point
 from influxdb_client.client.write_api import SYNCHRONOUS
@@ -128,7 +128,7 @@ class InfluxDBHandler:
                 .field("avg_price", float(order.get("ap", "0"))) \
                 .field("last_qty", float(order.get("l", "0"))) \
                 .field("cum_qty", float(order.get("z", "0"))) \
-                .time(datetime.fromtimestamp(force_order_data["E"] / 1000))
+                .time(datetime.fromtimestamp(force_order_data["E"] / 1000, tz=timezone.utc))
             
             logger.info(f"数据点创建完成: {point}")
             
